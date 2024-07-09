@@ -1,0 +1,88 @@
+/* Add Azeret Mono Font*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Section for all */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-bottom: 74px;
+}
+/* Body Section -- Add font family*/
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+/* Banner Section container start Here */
+
+.banner-section-container{
+    width: 1440px;
+    height: 652px;
+    border: 2px solid red;
+    background-image: url(./assets/Hero-bg.png);
+    margin: 0 auto;
+    
+}
+
+.banner-content{
+    width: 998px;
+    height: 581px;
+    margin: 26px 221px 45px 221px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    margin-top: 26px;
+    text-align: center;
+}
+
+.banner-image{
+    width: 240.28px;
+    height: 240px;
+    border: 2px solid blue;
+    background-image: url(./assets/Group.png);
+    /* transform: rotate(180.00deg); */
+    margin: 0px 378.86px ;
+
+
+.banner-title{
+    color: #0D1321;
+    margin: 24px 0px 32px 0px;
+    height: 134px;
+    width: 998px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.banner-text{
+
+}
+
+.text-section{
+    color: #0D1321;
+    
+}
+
+.content-text-section{
+    color: #0D1321;
+    font-size: 16px;
+    text-decoration-color: FFFFFF;
+}
+
+.contact-button{
+    color: #FFFFFF;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    width: 208px;
+    height: 66px;
+}
+
+/* End of Banner Section */
+
+/* Why Web Development */
+
+.why-web-dev{
+    
+}
