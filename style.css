@@ -134,6 +134,8 @@ main section{
     border: 16px;
     display: flex;
     justify-content: space-between;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
 }
 
 .sub-section2{
@@ -142,6 +144,8 @@ main section{
     padding: 48px;
     justify-content: space-between;
     border: 16px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
 }
 
 .sub-section3{
@@ -150,6 +154,8 @@ main section{
     justify-content: space-between;
     padding: 48px;
     border: 16px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
 }
 
 .learn-more-web-dev-section{
@@ -195,7 +201,6 @@ main section{
     justify-content: space-between;
     padding: 10px;
     text-align: left;
-    
 }
 
 .skill{
@@ -205,6 +210,27 @@ main section{
     border: 10px;
 }
 /* End of My Current Target Section */
+/* Target Section */
+.next-target-container{
+    text-align: center;
+    padding: 50px;
+}
+
+.target{
+    display: flex;
+    text-align: left;
+    height: 139px;
+    padding: 40px;
+    gap: 60px;
+    border-radius: 16px;
+    border: 2px solid whitesmoke;
+}
+
+.target img{
+    width: 94px;
+    height: 84px;
+}
+/* End of Target */
 
 /* Section 04 */
 
