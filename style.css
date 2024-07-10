@@ -1,6 +1,22 @@
 /* Add Azeret Mono Font*/
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* For Body and All Section */
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+.titles-color{
+    color: rgb(13, 19, 33);
+}
+
+h3{
+    font-weight: 800px;
+    font-size: 32px;
+    color: rgb(13, 19, 33);
+}
+
 /* Header Section for Banner */
 /* Start */
 
@@ -8,14 +24,23 @@
     background-image: url(./assets/Hero-bg.png);
     max-width: 1440px;
     height: 652px;
+    margin: auto;
+    border: 2px solid red;
 }
 
+
 .banner-content{
+    width: 998px;
+    height: 528px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    /* margin-top: 26px;
+    margin-bottom: 44px; */
+    margin: 26px 221px 44px;
+    border: 2px solid red;
 }
 
 .banner-content button{
@@ -23,4 +48,34 @@
     color: rgb(255, 255, 255);
 }
 
-/* End */
+.banner-content heading{
+    font-weight: 800px;
+    font-size: 48px;
+    font-weight: 800px;
+    font-size: 48px;
+}
+
+.btn{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background-color: rgb(13, 19, 33);
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* End of Header*/
+
+/* Start of Main Section */
+
+main section{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.web-container-section{
+    align-items: center;
+    text-align: center;
+    border: 2px solid red;
+}
