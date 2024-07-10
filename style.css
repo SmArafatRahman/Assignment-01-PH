@@ -25,9 +25,10 @@ h3{
     max-width: 1440px;
     height: 652px;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     background-position:center;
+    margin-bottom: 80px;
 }
 
 
@@ -41,7 +42,7 @@ h3{
     /* margin-top: 26px;
     margin-bottom: 44px; */
     margin: 26px 221px 44px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: auto;
     align-items: center;
     text-align: center;
@@ -83,24 +84,54 @@ main section{
 .web-container-section{
     align-items: center;
     text-align: center;
-    border: 2px solid red;
+    background-color: #FAFAFB;
+    margin-bottom: 80px;
+    /* border:200px solid black; */
+}
+
+.web-content{
+    width: 946px;
+    /* height: 1235px; */
+    /* border: 2px solid;
+    text-align: center; */
+    margin: auto;
+    padding: 80px 97px;
+}
+
+.web-dev-sub-section{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
 }
 
 .sub-section1{
+    text-align: left;
+    padding: 48px;
+    border: 16px;
     display: flex;
     justify-content: space-between;
 }
 
 .sub-section2{
     display: flex;
+    text-align: left;
+    padding: 48px;
     justify-content: space-between;
+    border: 16px;
 }
 
 .sub-section3{
     display: flex;
+    text-align: left;
     justify-content: space-between;
+    padding: 48px;
+    border: 16px;
 }
 
+.learn-more-web-dev-section{
+    width: 150px;
+    height: 50px;
+}
 /* End of Section 01 */
 
 /* Section 02 */
@@ -109,10 +140,19 @@ main section{
     max-width: 1140px;
     height: 775px;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
+    margin-bottom: 80px;
 }
 
+.youtube-video{
+    width: 1076px;
+    
+    height: 550px;
+    margin: auto;
+    border-radius: 8px;
+
+}
 /* End of Inspiration Section */
 
 /* Section 03 */
@@ -120,8 +160,9 @@ main section{
 .current-target-container{
     height: 460px;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .skills{
@@ -129,8 +170,15 @@ main section{
     justify-content: space-between;
     padding: 10px;
     text-align: left;
+    
 }
 
+.skill{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    border: 10px;
+}
 /* End of My Current Target Section */
 
 /* Section 04 */
@@ -138,9 +186,16 @@ main section{
 .support-container{
     height: 313px;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
     background-image: url(./assets/handshake.jpg);
+    border-radius: 16px;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 64px 0px;
 }
 
 /* Footer Section*/
@@ -152,10 +207,23 @@ footer{
     max-width: 1140px;
     text-align: center;
     margin: auto;
+    
 }
 
 footer ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    
+}
+
+/* .Developer-footer{
+   font-weight: 600px;
+   font-size: 20px;
+} */
+
+footer ul li{
+    margin-right: 24px;
+    list-style-type: none;
+
 }
