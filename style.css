@@ -7,6 +7,20 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
+.nav-name{
+    font-weight: 800;
+    font-size: 28px;
+    padding-left: 80px;
+}
+
+.nav-button{
+    width: 244px;
+    height: 57px;
+    border-radius: 8px; 
+    background-color: white;
+    font-size: 20px;
+}
+
 .titles-color{
     color: rgb(13, 19, 33);
 }
@@ -19,6 +33,16 @@ h3{
 
 /* Header Section for Banner */
 /* Start */
+
+/* Nav Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 90px;
+    max-width: 1440px;
+}
+/* End Nav Bar */
 
 .banner-container{
     background-image: url(./assets/Hero-bg.png);
@@ -147,11 +171,12 @@ main section{
 
 .youtube-video{
     width: 1076px;
-    
     height: 550px;
     margin: auto;
     border-radius: 8px;
-
+    padding: 32px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
 }
 /* End of Inspiration Section */
 
@@ -185,6 +210,7 @@ main section{
 
 .support-container{
     height: 313px;
+    max-width: 1140px;
     margin: auto;
     /* border: 2px solid red; */
     text-align: center;
@@ -195,7 +221,34 @@ main section{
     flex-direction: column;
     text-align: center;
     margin-bottom: 80px;
-    padding: 64px 0px;
+    /* padding: 64px 48px; */
+}
+
+.support-content{
+    display: flex;
+    margin: auto;
+    height: 57px;
+    width: 684px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+}
+
+.get-suggession{
+    width: 548px;
+    height: 57px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.submit-option{
+    width: 120px;
+    height: 57px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 17px 20px 17px 20px;
 }
 
 /* Footer Section*/
@@ -207,7 +260,8 @@ footer{
     max-width: 1140px;
     text-align: center;
     margin: auto;
-    
+    background-color: #F8F8F8;
+    padding: 0px 15px;
 }
 
 footer ul{
@@ -227,3 +281,8 @@ footer ul li{
     list-style-type: none;
 
 }
+
+/* footer input[type="text"]{
+    height: 548px;
+    width: 57px;
+} */
